@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="cart.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <body>
+          <div class="topnav">
+            <a href="home.html" class="split">RentNest</a>
+            <a class="active" href="#home">Home</a>
+            <!-- <a href="#portfolio">Port Folio</a> -->
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a class="cart.html" href="cart.html">Add to cart</a>
+            <a href="login.html">LogIn</a>
+        </div>
+        
+            <div class="row">
+                <div class="col-75">
+                  <div class="container">
+                    <form action="/action_page.php">
+              
+                      <div class="row">
+                        <div class="col-50">
+                          <h3>Billing Address</h3>
+                          <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="S.Rajah">
+                          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                          <input type="text" id="email" name="email" placeholder="Shadchika20@gmail.com">
+                          <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                          <input type="text" id="adr" name="address" placeholder="Malwata, Dehiwala">
+                          <label for="distict"><i class="fa fa-institution"></i> Distict</label>
+                          <label for="Distict">Distict</label>
+                  <select id="Distict" name="Distict">
+                    <option value="Jaffna">Jaffna</option>
+                    <option value="Kilinochchi	">Kilinochchi	</option>
+                    <option value="Vavuniya">Vavuniya</option>
+                    <option value="Mannar">Mannar</option>
+                    <option value="Mullaitivu">Mullaitivu</option>
+                    <option value="Puttalam">Puttalam</option>
+                    <option value=" Kurunegala"> Kurunegala</option>
+                    <option value="Gampaha">Gampaha</option>
+                    <option value="Colombo">Colombo</option>
+                    <option value="Kalutara">Kalutara</option>
+                    <option value="Anuradhapura">Anuradhapura</option>
+                    <option value="Polonnaruwa">Polonnaruwa</option>
+                    <option value="Matale">Matale</option>
+                    <option value="Kandy">Kandy</option>
+                    <option value="Nuwara Eliya">Nuwara Eliya</option>
+                    <option value=" Kegalle"> Kegalle</option>
+                    <option value="Ratnapura">Ratnapura</option>
+                    <option value="Trincomalee">Trincomalee</option>
+                    <option value="NBatticaloa">Batticaloa</option>
+                    <option value="Ampara">Ampara</option>
+                    <option value="Badulla">Badulla</option>
+                    <option value="Monaragala">Monaragala</option>
+                    <option value="Hambantota"> Hambantota</option>
+                    <option value="Matara">Matara</option>
+                    <option value="Galle">Galle</option>
+                  </select>
+              
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="state">City</label>
+                              <input type="text" id="state" name="state" placeholder="Colombo-06">
+                            </div>
+                            <div class="col-50">
+                              <label for="zip">Zip</label>
+                              <input type="text" id="zip" name="zip" placeholder="42000">
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-50">
+                          <h3>Payment</h3>
+                          <label for="fname">Accepted Cards</label>
+                          <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                          </div>
+                          <label for="cname">Name on Card</label>
+                          <input type="text" id="cname" name="cardname" placeholder="Shanmugarasa.s">
+                          <label for="ccnum">Credit card number</label>
+                          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                          <label for="expmonth">Exp Month</label>
+                          <input type="text" id="expmonth" name="expmonth" placeholder="September">
+              
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="expyear">Exp Year</label>
+                              <input type="text" id="expyear" name="expyear" placeholder="2025">
+                            </div>
+                            <div class="col-50">
+                              <label for="cvv">CVV</label>
+                              <input type="text" id="cvv" name="cvv" placeholder="352">
+                            </div>
+                          </div>
+                        </div>
+              
+                      </div>
+                      <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                      </label>
+                      <input type="submit" value="Continue to checkout" class="btn">
+                    </form>
+                  </div>
+                </div>
+                
+                <!-- <div class="col-25">
+                  <div class="container">
+                    <h4>Cart
+                      <span class="price" style="color:black">
+                        <i class="fa fa-shopping-cart"></i>
+                        <b>4</b>
+                      </span>
+                    </h4>
+                    <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+                    <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+                    <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+                    <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+                    <hr>
+                    <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+                  </div>
+                </div> -->
+              </div>
+              
+        </body>
+    </head>
+</html>

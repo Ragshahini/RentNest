@@ -1,0 +1,107 @@
+.SignUpbox{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 320px;
+height: 400px;
+margin: 340px;
+background-origin: padding-box;
+box-shadow: 0px 20px 42px 0 rgba(31, 38 ,135, 0.37 );
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter:blur(2px);
+border-radius: 40px;
+border-color: #333;
+border: 50px solid rgba(255, 255, 255, 0.18);
+padding: 50px;
+margin-top: 50px !important;
+}
+
+.signN input[type="text"],
+.signN input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color:#070000;
+    padding: 5px;
+    margin-left: 2px;
+    
+}
+.Click {
+    
+    border: none;
+    outline: none;
+    height:10;
+    background:#4d9d5a;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-direction: calc(-50%);
+    
+
+
+}
+.Click:hover{
+    cursor: pointer;
+     background: #095c25;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: calc(50% - 50px);
+}
+#submit{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+#log{
+    color:  #095c25;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #117753;
+    margin-top:-8px;
+    /* transform: translate(-50%, -50%); */
+    width: 1229px;
+    margin-left: -10px;
+  }
+  
+  .topnav a {
+    float: right;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #f56c42;
+    color: black;
+  }
+.topnav a.split{
+    /* width: 50px; */
+    /* padding: 10px; */
+   text-align: center;
+      float: right;
+      background-color: transparent;
+      color:  #ff6b3e;
+     margin-right: 550px;
+      font-family:sans-serif;
+      font-weight:bolder;
+      font-style:unset;
+      font-size:19px;
+     font-feature-settings: "akhn";
+      /* transform: translate(-50%, -50%); */
+   } 
